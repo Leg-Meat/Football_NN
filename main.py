@@ -129,3 +129,5 @@ print(f"Expected Raw Half Time Result: {info_test[idx, 2]} - {a2[2,0]} - {a2[3, 
 print(f"Expected Raw Full Time Result: {info_test[idx, 2]} - {a2[0,0]} - {a2[1, 0]} {info_test[idx, 3]} ")
 print(f"Expected Half Time Result: {info_test[idx, 2]} - {np.round(a2[2,0])} - {np.round(a2[3, 0])} {info_test[idx, 3]} ")
 print(f"Expected Full Time Result: {info_test[idx, 2]} - {np.round(a2[0,0])} - {np.round(a2[1, 0])} {info_test[idx, 3]} ")
+print(f"Actual Half Time Result: {info_test[idx, 2]} - {label_test[2, idx]} - {label_test[3, idx]}  {info_test[idx, 3]} ")
+print(f"Actual Full Time Result: {info_test[idx, 2]} - {label_test[0, idx]} - {label_test[1, idx]}  {info_test[idx, 3]} ")
