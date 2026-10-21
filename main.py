@@ -102,7 +102,6 @@ def update_parameters(w1, b1, w2, b2, dw1, db1, dw2, db2, alpha):
     return w1, b1, w2, b2
 
 def get_mean_absolute_error(a2, labels):
-    print(a2, labels)
     return np.mean(np.abs(a2 - labels))
 
 def gradient_descent(feature, label, iterations, alpha):
